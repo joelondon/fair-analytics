@@ -1,10 +1,20 @@
 # Fair Analytics
 
-bundled client app at codesandbox : https://codesandbox.io/s/github/joelondon/vesparny-fair-analytics-client-api/tree/master/
+## bundled client client
 
-browser native client app at glitch: https://glitch.com/edit/#!/fair-analytics-client-api
+at codesandbox: https://codesandbox.io/s/github/joelondon/vesparny-fair-analytics-client-api/tree/master/
 
-server logs: https://vesparny-fair-analytics.glitch.me/_stats
+## browser native client
+
+at glitch: https://glitch.com/edit/#!/fair-analytics-client-api
+
+## see server logs 
+
+https://vesparny-fair-analytics.glitch.me/_stats
+
+## also see
+
+https://www.npmjs.com/package/simple-tracker - for a client that sends more data to the server
 
 
 > An analytics server that doesn't undermine user's privacy
