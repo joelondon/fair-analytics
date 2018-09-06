@@ -1,8 +1,11 @@
 # Fair Analytics
 
-client app at codesandbox : https://codesandbox.io/s/github/joelondon/vesparny-fair-analytics-client-api/tree/master/
+bundled client app at codesandbox : https://codesandbox.io/s/github/joelondon/vesparny-fair-analytics-client-api/tree/master/
 
-https://vesparny-fair-analytics.glitch.me/_stats
+browser native client app at glitch: https://glitch.com/edit/#!/fair-analytics-client-api
+
+server logs: https://vesparny-fair-analytics.glitch.me/_stats
+
 
 > An analytics server that doesn't undermine user's privacy
 
