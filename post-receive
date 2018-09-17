@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "Starting post-receive hook ... D:\inetpub\bonobo\App_Data\Repositories\fair-analytics\hooks"
+echo "This hook checks out the repo to the webserver's configured web root"
+echo "Trying GIT_WORK_TREE='/d/inetpub/iisnode/fair-analytics' git checkout --force"
+while read oldrev newrev ref
+do
+  branch=`echo $ref | cut -d/ -f3`
+  GIT_WORK_TREE='/d/inetpub/iisnode/fair-analytics' git checkout -f $branch
+done
+echo 'trying to recycle DefaultAppPool - may need elevated login'
+%systemroot%\System32\inetsrv\appcmd recycle apppool DefaultAppPool
+echo "Finished."
