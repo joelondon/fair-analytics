@@ -1,6 +1,6 @@
 # Fair Analytics
 
-## bundled client client
+## bundled client
 
 at codesandbox: https://codesandbox.io/s/github/joelondon/vesparny-fair-analytics-client-api/tree/master/
 
