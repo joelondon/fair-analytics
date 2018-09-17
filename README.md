@@ -12,11 +12,6 @@ at glitch: https://glitch.com/edit/#!/fair-analytics-client-api
 
 https://vesparny-fair-analytics.glitch.me/_stats
 
-## also see
-
-https://www.npmjs.com/package/simple-tracker - for a client that sends more data to the server
-
-
 > An analytics server that doesn't undermine user's privacy
 
 ## Motivations?
