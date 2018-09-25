@@ -10,12 +10,7 @@ at glitch: https://glitch.com/edit/#!/fair-analytics-client-api
 
 ## see server logs 
 
-https://fair-analytics.glitch.me/_stats
-
-## iisnode
-
-to run via iis, this project also includes a `web.config` for routing purposes
-
+https://vesparny-fair-analytics.glitch.me/_stats
 
 > An analytics server that doesn't undermine user's privacy
 
