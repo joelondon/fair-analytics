@@ -10,7 +10,7 @@ at glitch: https://glitch.com/edit/#!/fair-analytics-client-api
 
 ## see server logs 
 
-https://vesparny-fair-analytics.glitch.me/_stats
+https://fair-analytics.glitch.me/_stats
 
 > An analytics server that doesn't undermine user's privacy
 
