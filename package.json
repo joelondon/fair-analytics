@@ -17,7 +17,7 @@
     "testonly": "ava test/**/*.spec.js --tap | tap-spec",
     "lint": "standard",
     "test": "nyc npm run testonly",
-    "build": "npm run lint && npm run test",
+    "build": "npm run test",
     "release": "npm run build && npm run bump && git push --follow-tags origin master && npm publish"
   },
   "repository": "vesparny/fair-analytics",
