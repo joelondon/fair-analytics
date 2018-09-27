@@ -2,6 +2,18 @@
 
 > An analytics server that doesn't undermine user's privacy
 
+## bundled client
+
+at codesandbox: https://codesandbox.io/s/github/joelondon/vesparny-fair-analytics-client-api/tree/master/
+
+## browser native client
+
+at glitch: https://glitch.com/edit/#!/fair-analytics-client-api
+
+## see server logs 
+
+https://fair-analytics.glitch.me/_stats
+
 [![Travis](https://img.shields.io/travis/vesparny/fair-analytics.svg)](https://travis-ci.org/vesparny/fair-analytics)
 [![Code Coverage](https://img.shields.io/codecov/c/github/vesparny/fair-analytics.svg?style=flat-square)](https://codecov.io/github/vesparny/fair-analytics)
 [![David](https://img.shields.io/david/vesparny/fair-analytics.svg)](https://david-dm.org/vesparny/fair-analytics)
