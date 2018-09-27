@@ -4,7 +4,7 @@
   "description": "Fair Analytics",
   "main": "lib/index.js",
   "engines": {
-    "node": "8"
+    "node": ">=6"
   },
   "bin": {
     "fair-analytics": "bin/index.js"

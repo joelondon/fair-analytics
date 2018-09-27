@@ -1,18 +1,14 @@
 # Fair Analytics
 
-## bundled client
-
-at codesandbox: https://codesandbox.io/s/github/joelondon/vesparny-fair-analytics-client-api/tree/master/
-
-## browser native client
-
-at glitch: https://glitch.com/edit/#!/fair-analytics-client-api
-
-## see server logs 
-
-https://fair-analytics.glitch.me/_stats
-
 > An analytics server that doesn't undermine user's privacy
+
+[![Travis](https://img.shields.io/travis/vesparny/fair-analytics.svg)](https://travis-ci.org/vesparny/fair-analytics)
+[![Code Coverage](https://img.shields.io/codecov/c/github/vesparny/fair-analytics.svg?style=flat-square)](https://codecov.io/github/vesparny/fair-analytics)
+[![David](https://img.shields.io/david/vesparny/fair-analytics.svg)](https://david-dm.org/vesparny/fair-analytics)
+[![npm](https://img.shields.io/npm/v/fair-analytics.svg)](https://www.npmjs.com/package/fair-analytics)
+[![npm](https://img.shields.io/npm/dm/fair-analytics.svg)](https://npm-stat.com/charts.html?package=fair-analytics&from=2017-04-01)
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![MIT License](https://img.shields.io/npm/l/fair-analytics.svg?style=flat-square)](https://github.com/vesparny/fair-analytics/blob/master/LICENSE)
 
 ## Motivations?
 
@@ -46,6 +42,41 @@ Fair Analytics is an open, transparent, distributed and fair Google Analytics al
 
 ## Setup
 
+There are 2 ways of running Fair Analytics
+
+### CLI
+
+```bash
+npm install -g fair-analytics
+
+fair-analytics
+
+```
+
+The command accepts some options:
+
+```bash
+$ fair-analytics --help
+
+  Usage: fair-analytics [options] [command]
+
+  Commands:
+
+    help  Display help
+
+  Options:
+
+    -h, --help                       Output usage information
+    -H, --host [value]               Host to listen on (defaults to "0.0.0.0")
+    -m, --memory                     Use in-memory storage (disabled by default)
+    -o, --origin [value]             Accepts POST requests only from a specified origin (defaults to "*")
+    -p, --port <n>                   Port to listen on (defaults to 3000)
+    -s, --storage-directory [value]  Storage directory (defaults to process.cwd())
+    -v, --version                    Output the version number
+```
+
+The instance is now running at `http://localhost:3000`
+
 ### Programmatically
 
 Add fair-analytics as a dependency to your project
@@ -65,6 +96,14 @@ feed.on('ready', () => {
 ```
 
 The instance is now running at `http://localhost:3000`
+
+## Deploy
+
+TODO
+
+* nginx
+* docker
+
 
 ## Usage
 
