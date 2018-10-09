@@ -6,7 +6,7 @@ dependencies:
   enqueue: 1.0.2
   express: 4.16.3
   http-status-codes: 1.3.0
-  hypercore: 6.19.1
+  hypercore: 6.19.2
   hyperdiscovery: 6.0.4
   lowdb: 0.16.2
   node-version: 1.2.0
@@ -2625,6 +2625,7 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-Y1GUDo39ez4aHAw7MysnUD5JzYX+WaIj8I57kO3aEPT1fFRL4sr7mjei97FgnwhAyyzRYmQZaTHb2+9uZ1dPtg==
+      tarball: 'http://registry.npmjs.org/finalhandler/-/finalhandler-1.1.1.tgz'
   /find-cache-dir/1.0.0:
     dependencies:
       commondir: 1.0.1
@@ -3178,7 +3179,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-6jjMwL/XgeAl9BDUWmAJmIum7ynHGqajCnXt5VbJuxNLKkPI8WQS2kpMfcvotI5QHKMu/15+92ZPM6WoYDtd8g==
-  /hypercore/6.19.1:
+  /hypercore/6.19.2:
     dependencies:
       array-lru: 1.1.1
       atomic-batcher: 1.0.2
@@ -3209,7 +3210,7 @@ packages:
       unordered-set: 2.0.1
     dev: false
     resolution:
-      integrity: sha512-CnpaH6+qlt0w1ynt3y+q9alZh23lK0nD7bbuG0vNtQzFefmTYoLexq/Vpss8CYjoQfh6qeG90g2F8GjCl8/Eag==
+      integrity: sha512-AQS6mtwI7RDKRT3u68EEcehtI1VpaavWXxfnGDyOrR/AVBDUMdIUw8wcYCZdiZZVHarh5xKS4+VRCdJjS67LuA==
   /hyperdiscovery/6.0.4:
     dependencies:
       datland-swarm-defaults: 1.0.2
@@ -4528,9 +4529,15 @@ packages:
     resolution:
       integrity: sha1-j7+rsKmKJT0xhDMfno3rc3L6xsA=
   /nan/2.11.0:
+    dev: true
     optional: true
     resolution:
       integrity: sha512-F4miItu2rGnV2ySkXOQoA8FKz/SR2Q2sWP0sbTxNxz/tuokeC8WxOhPMcwi0qIyGtVn/rrSeLbvVkznqCdwYnw==
+  /nan/2.11.1:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-iji6k87OSXa0CcrLl9z+ZiYSuR2o+c0bGuNmXdrhTQTakxytAFsC56SArGYoiHlJlFoHSnvmhpceZJaXkVuOtA==
   /nanoassert/1.1.0:
     dev: false
     resolution:
@@ -5998,7 +6005,7 @@ packages:
   /sodium-native/2.2.2:
     dependencies:
       ini: 1.3.5
-      nan: 2.11.0
+      nan: 2.11.1
       node-gyp-build: 3.4.0
     dev: false
     optional: true
@@ -6771,7 +6778,7 @@ packages:
       integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
   /utp-native/1.7.3:
     dependencies:
-      nan: 2.11.0
+      nan: 2.11.1
       node-gyp-build: 3.4.0
       readable-stream: 2.3.6
     dev: false
